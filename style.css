@@ -1,3 +1,23 @@
-main{
-    
+body{
+    background-color: aqua;
+}
+.tarjeta{
+    background-color: blueviolet;
+    width: 364px;
+    height: 36px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.encabezado{
+    display: flex;
+    background-color: #EB5757;
+}
+.informacion{
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado img{
+    height: 32px;
 }
